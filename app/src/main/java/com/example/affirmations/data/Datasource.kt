@@ -5,7 +5,7 @@ import com.example.affirmations.model.Affirmation
 
 class Datasource {
     fun loadAffirmations(): List<Affirmation>{
-        return listOf<Affirmation>(
+        return listOf(
             Affirmation(R.string.affiramtion1, R.drawable.image1),
             Affirmation(R.string.affiramtion2, R.drawable.image2),
             Affirmation(R.string.affiramtion3, R.drawable.image3),
